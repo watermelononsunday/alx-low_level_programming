@@ -16,7 +16,7 @@ if (alphabet == 'q')
 continue;
 
 else if (alphabet == 'e')
-contiue;
+continue;
 
 putchar(alphabet);
 }

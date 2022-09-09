@@ -1,1 +1,1 @@
-learning C programming language
+C variables

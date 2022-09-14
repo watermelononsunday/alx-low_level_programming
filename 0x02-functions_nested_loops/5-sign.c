@@ -20,7 +20,7 @@ return (-1);
 }
 else
 {
-_putchar('0');
+_putchar ('0');
 return(0);
 }
 }

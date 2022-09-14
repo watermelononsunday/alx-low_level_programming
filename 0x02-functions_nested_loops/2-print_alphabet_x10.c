@@ -16,7 +16,7 @@ for (number = 0; number <= '9'; number++)
 {
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(alphabet_);
+_putchar(alphabet);
 }
 _putchar!('\n');
 }

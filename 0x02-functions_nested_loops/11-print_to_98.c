@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - prints from any integer to 98
- * @n: number starts counting at 
+ * @n: number starts counting at
  * Return: always 0.
  */
 void print_to_98(int n)

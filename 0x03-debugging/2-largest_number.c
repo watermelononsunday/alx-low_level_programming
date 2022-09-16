@@ -1,3 +1,4 @@
+:%s/\s\+$//e
 #include "main.h"
 
 /**

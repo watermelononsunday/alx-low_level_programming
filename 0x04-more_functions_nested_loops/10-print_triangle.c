@@ -25,7 +25,7 @@ for (b = size - a; b > 0; b--)
 _putchar(' ');
 }
 for (c = 0; c < a; c++)
-{	
+{
 _putchar('#');
 }
 _putchar('\n');

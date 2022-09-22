@@ -1,7 +1,7 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _strcat - concentrates two strings
+ * _strcat -concentrates two strings
  * @dest: string to append to
  * @src: string to add
  *

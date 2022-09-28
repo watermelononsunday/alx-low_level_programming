@@ -5,7 +5,7 @@
  * @num: the number whose natural square root is found
  * @a: test variable
  *
- * Return: the square root, if the number has a natural squar root -1,if the number does not have a natural square root
+ * Return: the square root
  */
 
 int sqr_num(int num, int a)
@@ -18,7 +18,8 @@ else
 return (-1);
 }
 
-/** _sqrt_recursion - returns the natural square root of a number
+/**
+ * _sqrt_recursion - returns the natural square root of a number
  * @n: the number whose natural square root is returned
  *
  * Return: -1 if n does not have a natural square root

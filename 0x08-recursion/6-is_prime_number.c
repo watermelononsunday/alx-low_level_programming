@@ -26,7 +26,7 @@ return (get_prime(num, a + 1));
 
 int is_prime_number(int n)
 {
-if (n <= !)
+if (n <= 1)
 return (0);
 return (get_prime(n, 2));
 }

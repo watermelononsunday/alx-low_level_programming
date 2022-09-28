@@ -12,7 +12,7 @@ int a = 0;
 
 if (*s != 0)
 {
-a = _strlen_recursion(s = 1);
+a = _strlen_recursion(s + 1);
 return (++a);
 }
 return (a);

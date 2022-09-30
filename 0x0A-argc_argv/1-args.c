@@ -4,7 +4,7 @@
 /**
  * main - a program that prints the number of arguments passed into it
  *
- * @argc: counts the number of arguments 
+ * @argc: counts the number of arguments
  * @argv: array pointer that holds the arguments passed
  *
  * Return: 0

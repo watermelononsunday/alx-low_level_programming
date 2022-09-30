@@ -5,7 +5,7 @@
  * main - a program that prints all arguments it recieves
  *
  * @argc: holds the number of arguments passed
- * @argb: araay pointer that holds the arguments passed
+ * @argv: araay pointer that holds the arguments passed
  *
  * Return: Always 0 (Success)
  */

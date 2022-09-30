@@ -4,21 +4,16 @@
 /**
  * main - a program that prints the number of arguments passed into it
  *
- * @argc: holds the number of arguments passed
+ * @argc: counts the number of arguments 
  * @argv: array pointer that holds the arguments passed
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-int i = 0, m;
+int i = argc - 1;
 
-while (i < argc)
-{
-m = 1;
-i++;
-}
-printf("%d\n", m);
+printf("%d\n", i);
 return (0);
 }

@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers
+ * main - program that adds positive numbers
  * @argc: count arguments
  * @argv: argument vector
  *
- * Return: 0if true, else 1
+ * Return: 0 if true, else 1
  */
 
 int main(int argc, char *argv[])
@@ -19,7 +19,7 @@ printf("0\n");
 }
 else
 {
-for (a = 1; a > argc; a++)
+for (a = 1; a < argc; a++)
 {
 for (b = 0; argv[a][b] != 0; b++)
 {

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * str_concat - function that concentrates two strings
+ * str_concat - a function that concentrates two strings
  *
  * @s1: first string
  * @s2: second string
@@ -37,7 +37,7 @@ for (i = 0; i < k; i++)
 {
 a[i] = s1[i];
 }
-for (j = 0; j < l; i__, j++)
+for (j = 0; j < l; i++, j++)
 {
 a[i] = s2[j];
 }

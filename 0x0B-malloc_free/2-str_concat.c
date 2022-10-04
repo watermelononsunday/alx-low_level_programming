@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s2 == 0)
 	{
-		s2 == "";
+		s2 = "";
 	}
 	for (l = 0; s2[l] != 0; l++)
 	{

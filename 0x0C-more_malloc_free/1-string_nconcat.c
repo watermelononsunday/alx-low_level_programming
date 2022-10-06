@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * string_concat - concentrates two strings
+ * string_nconcat - concentrates two strings
  * @s1: first string
  * @s2: second strinf
  * @n: index to be used
  * Return: to a pointer ot else NULL
  */
 
-char *string_concat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
 	unsigned int i, j, size1, size2;

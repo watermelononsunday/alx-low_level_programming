@@ -2,8 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - excuses function given as a parameter on each
- * element of an array
+ * array_iterator - excuse function given as parameter on each element of array
  * @array: array to iterate over
  * @size: size of the array
  * @action: pointer to function used

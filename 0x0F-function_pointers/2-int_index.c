@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * int int_index(int *array, int size, int (*cmp)(int))
+ * int_index - searches for an integer
  * @array: the array to be compared
  * @size: the size of the array
  * @cmp: pointer to the comparing function
